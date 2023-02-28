@@ -66,7 +66,7 @@ if file:
                 result = False
                 break
         if not result:
-            st.error("Onr of these columns are missing:{}".format(wanted_columns),icon="🚨")
+            st.error("One of these columns are missing:{}".format(wanted_columns),icon="🚨")
         else:
             #show the dataset
             st.subheader("Uploaded Dataset")
